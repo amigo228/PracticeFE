@@ -11,34 +11,36 @@
         }
 
         .hero-column {
-            @include media ('>=768px'){
+            @include media ('>=768px') {
                 width: 50%;
             }
 
             &:first-of-type {
                 @include media ('>=768px') {
                     align-self: center;
-                }   
-            }     
+                }
+            }
 
-                &:last-of-type {
-                    @include media ('>=768px') {
-                        text-align: start;
-                    }   
-                }                    
+            &:last-of-type {
+                @include media ('>=768px') {
+                    text-align: start;
+                }
+            }
         }
 
         .img-holder {
             @include media ('>=768px') {
-            position: absolute;
-            right: -85px;
-            top: 170px;
-            max-width: 650px;
-            width: 100%;
+                position: absolute;
+                right: 0;
+                top: 170px;
+                max-width: 400px;
+                width: 100%;
             }
 
             @include media ('>=1024px') {
+                right: -50px;
                 max-width: 885px;
+                width: 100%;
             }
         }
 
@@ -56,7 +58,7 @@
                 padding-bottom: 50px;
             }
 
-            @include media ('>=1024px')  {
+            @include media ('>=1024px') {
                 font-size: 80px;
                 line-height: 88px;
 

@@ -84,15 +84,17 @@ img {
 @media (min-width: 768px) {
   .hero-section .container .img-holder {
     position: absolute;
-    right: -85px;
+    right: 0;
     top: 170px;
-    max-width: 650px;
+    max-width: 400px;
     width: 100%;
   }
 }
 @media (min-width: 1024px) {
   .hero-section .container .img-holder {
+    right: -50px;
     max-width: 885px;
+    width: 100%;
   }
 }
 .hero-section .container h1 {
