@@ -1,0 +1,109 @@
+.testimonials {
+    .container {
+        background-color: $purple;
+        border-radius: 50px;
+    }
+
+    .cover {
+        padding-bottom: 33px;
+
+        @include media ('>=1024px') {
+            padding-bottom: 133px;
+        }
+    }
+
+    .white-cover {
+        padding: 15px;
+        margin: 0 auto;
+        background-color: #fff;
+        box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+        border-radius: 20px;
+
+        @include media ('>=768px') {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        @include media ('>=1024px') {
+            padding: 0;
+            flex-direction: row;
+            justify-content: unset;
+            align-items: unset;
+        }
+    }
+
+    .testimonials-holder {
+        padding: 25px 0 0;
+
+        @include media ('>=768px') {
+            padding: 109px 0 85px 93px;
+        }
+
+    }
+
+    h2 {
+        display: block;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 130%;
+        color: #fff;
+        margin-bottom: 30px;
+
+        @include media ('>=768px') {
+            font-size: 40px;
+            margin-bottom: 0;
+        }
+    }
+
+    .image-holder {
+
+        @include media ('>=1024px') {
+            padding: 60px 30px 0 70px;
+        }
+
+    }
+
+    .text-holder {
+        padding: 20px 0;
+
+        @include media ('>=768px') {
+            width: 50%;
+            padding: 80px 0 50px;
+        }
+
+    }
+
+    h4 {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 160%;
+        letter-spacing: 0.005em;
+        color: $dark-blue;
+        position: relative;
+        margin-bottom: 29px;
+
+        &::after {
+            content: 'wordfaang.com';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform: translateY(100%);
+            color: purple;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 160%;
+            letter-spacing: 0.01em;
+            cursor: pointer;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 180%;
+        color: $light-grey;
+    }
+}
