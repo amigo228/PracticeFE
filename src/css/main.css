@@ -46,6 +46,191 @@ img {
   max-width: 100%;
 }
 
+.hero-section .container {
+  text-align: center;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .hero-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section .container .hero-column {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section .container .hero-column:first-of-type {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section .container .hero-column:last-of-type {
+    text-align: start;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section .container .img-holder {
+    position: absolute;
+    right: 0;
+    top: 170px;
+    max-width: 400px;
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-section .container .img-holder {
+    right: -50px;
+    max-width: 885px;
+    width: 100%;
+  }
+}
+.hero-section .container h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  color: #212353;
+  padding-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .hero-section .container h1 {
+    font-size: 50px;
+    line-height: 50px;
+    max-width: 645px;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-section .container h1 {
+    font-size: 80px;
+    line-height: 88px;
+  }
+}
+.hero-section .container .text-holder-hero-section {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4B5D68;
+  padding-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .hero-section .container .text-holder-hero-section {
+    font-size: 18px;
+    line-height: 29px;
+    max-width: 380px;
+    padding-bottom: 50px;
+  }
+}
+.hero-section .container .btn {
+  margin: 0 auto;
+  background: #9C69E2;
+  border-radius: 50px;
+  border: none;
+  padding: 6px 12px;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .hero-section .container .btn {
+    background: #9C69E2;
+    border-radius: 50px;
+    padding: 16px 37px;
+  }
+}
+.hero-section .container .btn .btn-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+}
+@media (min-width: 768px) {
+  .hero-section .container .btn .btn-link {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
+.second-section .container {
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+@media (min-width: 768px) {
+  .second-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .second-section .second-column:first-of-type {
+    width: 40%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .second-section .second-column:last-of-type {
+    text-align: start;
+    width: 60%;
+    padding-right: 92px;
+    max-width: 475px;
+  }
+}
+.second-section .second-column img {
+  padding-bottom: 25px;
+}
+.second-section .second-column h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #212353;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .second-section .second-column h2 {
+    font-size: 40px;
+    line-height: 52px;
+    padding-bottom: 40px;
+  }
+}
+.second-section .second-column .text-holder-scnd-section {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4B5D68;
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .second-section .second-column .text-holder-scnd-section {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
 .testimonials .container {
   background-color: #9C69E2;
   border-radius: 50px;
