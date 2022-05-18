@@ -49,7 +49,11 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    margin: 0 auto;
+
+    @include media ('>=768px') {
+        margin-left: 200px;
+    }
 }
 
 a {
@@ -75,7 +79,6 @@ a:hover {
     left: 0;
     right: 0;
     background-color: white;
-    height: 100vh;
     z-index: 1;
     transition: all ease-in-out 0.3s;
 

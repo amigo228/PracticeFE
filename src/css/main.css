@@ -101,7 +101,12 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 200px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .header__button {
+    margin-left: 200px;
+  }
 }
 
 a {
@@ -126,7 +131,6 @@ a:hover {
   left: 0;
   right: 0;
   background-color: white;
-  height: 100vh;
   z-index: 1;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
@@ -536,6 +540,14 @@ a:hover {
   padding-bottom: 71px;
 }
 
+.testimonials {
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .testimonials {
+    margin-bottom: 150px;
+  }
+}
 .testimonials .container {
   background-color: #9C69E2;
   border-radius: 50px;
