@@ -1,0 +1,113 @@
+/* mixin usage */
+/*--------------------------------
+	Responsive ratio
+	Used for creating scalable elements that maintain the same ratio
+	example:
+	.element {
+		@include responsive-ratio(400, 300);
+	}
+*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1118px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section-features .features-blocks {
+  padding: 20px 10px 20px 120px;
+  margin-bottom: 15px;
+  text-align: start;
+  position: relative;
+}
+.section-features h2 {
+  padding-bottom: 25px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 45px;
+  color: #212353;
+  text-align: center;
+}
+.section-features .title-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+}
+.section-features h3 {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+.section-features .par {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4B5D68;
+  padding-bottom: 10px;
+}
+.section-features .img-holder {
+  width: 50%;
+  position: absolute;
+  left: -26px;
+  bottom: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.section-features .search {
+  background-color: #68C9BA;
+  border-radius: 50px;
+}
+.section-features .hours {
+  background: #9C69E2;
+  border-radius: 50px;
+}
+.section-features .print {
+  background: #F063B8;
+  border-radius: 50px;
+}
+.section-features .security {
+  background: #2D9CDB;
+  border-radius: 50px;
+}
+.section-features .link-features {
+  text-decoration: none;
+  color: #212353;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
+}
