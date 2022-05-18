@@ -541,6 +541,7 @@ a:hover {
 }
 
 .testimonials {
+  padding: 0 15px;
   margin-bottom: 30px;
 }
 @media (min-width: 768px) {
