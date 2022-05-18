@@ -6,6 +6,10 @@
         margin-bottom: 150px;
     }
 
+    @include media ('>=1024px') {
+        padding: 0;
+    }
+
     .container {
         background-color: $purple;
         border-radius: 50px;
